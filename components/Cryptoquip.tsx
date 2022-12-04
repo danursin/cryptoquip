@@ -39,7 +39,7 @@ const Cryptoquip: React.FC = () => {
     return (
         <>
             <Grid>
-                <Grid.Column width={4}>
+                <Grid.Column width={8}>
                     <div style={{ maxHeight: "90vh", overflowY: "auto" }}>
                         <Form size="mini">
                             <Table definition compact="very" basic>
@@ -68,7 +68,7 @@ const Cryptoquip: React.FC = () => {
                         </Form>
                     </div>
                 </Grid.Column>
-                <Grid.Column width={4}>
+                <Grid.Column width={8}>
                     <Form>
                         <Form.TextArea label="Puzzle Input" value={puzzle} onChange={(e, { value }) => setPuzzle(value as string)} />
                     </Form>
