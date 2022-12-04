@@ -2,6 +2,7 @@
   "name": "cryptoquip",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://cryptoquip.vercel.app/",
   "author": {
     "email": "danursin@gmail.com",
     "name": "Dan Ursin",
